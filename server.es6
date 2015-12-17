@@ -1,3 +1,4 @@
+// should probably hide these... sorry google!   
 const GOOGLE_CLIENT_ID = '646578251043-7i3q2n8q5t6rrvo1jrvclr82b80n7jns.apps.googleusercontent.com';
 const GOOGLE_CLIENT_SECRET = 'amTA9ELtuwvLsA6ouvoniLkr';
 
