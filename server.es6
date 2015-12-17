@@ -45,6 +45,11 @@ app.get('/auth/google/callback', passport.authenticate('google', { failureRedire
     res.redirect('/');
 });
 
+app.get('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/');
+});
+
 import { createServer } from 'http';
 let server = createServer(app);
 
